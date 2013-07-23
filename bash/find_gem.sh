@@ -40,8 +40,6 @@ if [ -z "$PATTERN" ]; then
   exit 1
 fi
 
-echo "pattern: $PATTERN $repo/Gemfile"
-
 for repo in `ls -d */`
 do 
   if [ -f ${repo}Gemfile ]; then 

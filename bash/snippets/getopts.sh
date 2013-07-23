@@ -2,7 +2,7 @@
 
 # Loops through the options sent, as defined in quotes.
 # The options in quotes: 
-# - have a colon (:) after them if they are required.
+# - have a colon (:) after them if they are required to have an argument.
 # - have a leading colon (:) if errors should be suppressed
 # OPTION is just a variable to store the current option.
 # OPTARG is the argument sent to the current option.
