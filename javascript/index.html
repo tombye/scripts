@@ -1,0 +1,22 @@
+<html>
+<head>
+<script src="./jquery.js"></script>
+<script>
+$(document).on('ready', function () {
+  var div = document.createElement('div');
+  var divText = document.createTextNode('I am from the domReady');
+  div.appendChild(divText);
+  document.body.appendChild(div);
+});
+</script>
+</head>
+<body>
+
+<script>
+  var div1 = document.createElement('div');
+  var divText1 = document.createTextNode('I am from the end of the body tag');
+  div1.appendChild(divText1);
+  document.body.appendChild(div1);
+</script>
+</body>
+</html>
