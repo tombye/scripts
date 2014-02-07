@@ -15,6 +15,7 @@ then
   exit 0
 fi
 
+FOLDER=`basename "$PWD"`
 INTENDED_VERSION=$1
 
 # get the last commit message and extract the version
@@ -28,7 +29,7 @@ else
 fi
 
 # check this version is in the version.rb file
-grep 'VERSION = "$INTENDED_VERSION"' lib/govuk_frontend_toolkit/version.rb >/dev/null
+grep "VERSION = \"$INTENDED_VERSION\"" lib/$FOLDER/version.rb >/dev/null
 GEM_MATCH=$?
 
 if [ $GEM_MATCH -eq 0 ]
