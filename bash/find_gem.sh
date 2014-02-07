@@ -46,7 +46,7 @@ do
     grep_output=`grep $PATTERN $repo/Gemfile`
     found=$?
     if [ $found -eq 0 ]; then
-      echo $repo
+      echo $repo | sed 's/\///g'
       if [ -n "$SHOWGREP" ]; then
         echo "grep output $grep_output"
       fi
