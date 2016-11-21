@@ -2,7 +2,7 @@
 
 # Mostly borrowed from: https://github.com/duckinator/duckinator.net/blob/master/_minify-css.sh
 
-function usage {
+usage {
   cat << EOF
   Usage: $0 [options]
 

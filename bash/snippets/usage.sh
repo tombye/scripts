@@ -3,7 +3,7 @@
 # In the 'Usage:' line, $0 means the command
 # The OPTIONS block should list all options possible
 
-function usage {
+usage() {
   cat << EOF
   Usage: $0 [options] <path>
 

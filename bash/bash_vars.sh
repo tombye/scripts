@@ -6,3 +6,4 @@ echo '$2 = The second argument on the command line. : '$2
 echo '$n = The nth argument on the command line. n = 0-9 : '$n
 echo '$* = All the arguments on the command line. : '$*
 echo '$# = The number of command line arguments. : '$#
+echo '$@ = All arguments sent in: '$@
