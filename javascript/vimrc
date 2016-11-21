@@ -1,0 +1,1 @@
+autocmd FileType javascript set tabstop=4 shiftwidth=4
