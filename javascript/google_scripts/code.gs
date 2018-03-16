@@ -24,6 +24,7 @@ function threadHasOneOfTheseLabels(thread, labels) {
 
   for (i = 0, labelsLength = labels.length; i < labelsLength; i++) {
     threadLabelNames = getThreadLabelNames(thread.getLabels());
+    //Logger.log("Labels attached to this thread: '" + threadLabelNames.join(',') + "'");
     hasLabel = threadLabelNames.indexOf(labels[i]) !== -1;
     if (hasLabel) {
       return true;
@@ -100,7 +101,7 @@ function archiveLabelled(threads, indexesOfThreadsWithLabels, maxDays) {
       daysOld,
       labelStr;
   
-for (i = 0, j = indexesOfThreadsWithLabels.length; i < j; i++) {
+ for (i = 0, j = indexesOfThreadsWithLabels.length; i < j; i++) {
     idx = indexesOfThreadsWithLabels[i];
     threadLabels = threads[idx].getLabels();
     if (threadLabels && threadLabels.length) {
@@ -118,6 +119,20 @@ for (i = 0, j = indexesOfThreadsWithLabels.length; i < j; i++) {
   }
 }
 
+function getSubjectsOfThreads(threads) {
+  var threads = GmailApp.getInboxThreads(0, 300),
+      numberOfThreads = threads.length,
+      idx,
+      thread;
+  
+  Logger.log('Running getSubjectsOfThreads at : ' + (new Date()));
+  Logger.log('Retrieved threads from positions 0-300');
+  for (idx = 0; idx < numberOfThreads; idx++) {
+    thread = threads[idx];
+    Logger.log('Subject of thread number at position ' + idx + ' is "' + thread.getFirstMessageSubject() + '"');
+  }
+}
+
 function archiveOldLabelled() {
   var ranges = [[300, 500], [0, 300]],
       rangeIdx = 0,
@@ -129,7 +144,7 @@ function archiveOldLabelled() {
       indexesOfThreadsWithLabels,
       processThreads;
   
-  Logger.log('Running at : ' + (new Date()));
+  Logger.log('Running archiveOldLabelled at : ' + (new Date()));
   
   processThreads = function () {
     threads = GmailApp.getInboxThreads(ranges[rangeIdx][0], ranges[rangeIdx][1]); 
@@ -166,9 +181,9 @@ function deleteThreadsWithTheseLabels(opts) {
       callback;
 
   var callback = function (threads, range) {
-    var threadsWithGithubLabels = getThreadsWithTheseLabels(threads, labels, maxDays, range)
+    var threadsWithThoseLabels = getThreadsWithTheseLabels(threads, labels, maxDays, range)
 
-    deleteThreads(threadsWithGithubLabels);
+    deleteThreads(threadsWithThoseLabels);
   };
 
   var threadsBatch = new ThreadsBatch({
@@ -178,12 +193,8 @@ function deleteThreadsWithTheseLabels(opts) {
   threadsBatch.run();
 };
 
-function deleteThreadsWithGithubLabels() {
-  deleteThreadsWithTheseLabels({ labels : ['github'], maxDays : 7 });
-};
-
-function deleteThreadsWithTwitterFacebookLabels() {
-  deleteThreadsWithTheseLabels({ labels : ['Twitter', 'facebook'], maxDays : 7 });
+function deleteThreadsWithGithubAndSocialLabels() {
+  deleteThreadsWithTheseLabels({ labels : ['github', 'Twitter', 'facebook'], maxDays : 7 });
 };
 
 function clearLog() {
