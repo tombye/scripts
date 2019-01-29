@@ -1,11 +1,6 @@
-// requires the following variables to be set:
-// - path
-// - product
-// - emailAddress
+// To use, uncomment this block and change all the values to your own.
 //
-// for example:
-//
-// var path = '/john-lewis-partners-marble-run-game/p1399227';
+// var url = 'https://www.johnlewis.com/john-lewis-partners-marble-run-game/p1399227';
 // var product = '75111906';
 // var emailAddress = 'me@hotmail.com';
 
@@ -32,11 +27,10 @@ function sendEmail(product, isAvailable) {
 };
 
 function pingJohnLewis() {
-  var root = 'https://www.johnlewis.com';
   var html;
   var outOfStockButton;
   
-  html = getHTML(root + path);
+  html = getHTML(url);
   outOfStockButton = html.match(/<button[a-zA-Z\s"=\-_]+button--add-to-basket-out-of-stock[a-zA-Z\s"=\-_]+>/);
   
   if (outOfStockButton !== null) {
