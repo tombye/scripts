@@ -1,3 +1,5 @@
+// Guidance at https://gist.github.com/tombye/795ee15fd225da980b711810abed7b26
+//
 // To use, uncomment this block and change all the values to your own.
 //
 // var url = 'https://www.johnlewis.com/john-lewis-partners-marble-run-game/p1399227';
