@@ -1,1 +1,1 @@
-git branch --merged master | sed 's/ *origin\///' | grep -v 'master$' | xargs -I% git branch -D %
+git branch --merged main | grep -v 'main$' | xargs -I% git branch -D %
