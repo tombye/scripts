@@ -10,13 +10,14 @@ repos=(
 )
 
 pull_repos=true
+
 for key in "${!repos[@]}"
 do
-  current_branch=$(git symbolic-ref --short HEAD)
   current_repo="${repos[$key]}"
+  cd $current_repo
+  current_branch=$(git symbolic-ref --short HEAD)
   if [ "$current_branch" != "main" ]; then
-    #echo "$current_repo is on $current_branch"
-    echo "nope"
+    echo "$current_repo is on $current_branch"
     pull_repos=false
   fi
 done
