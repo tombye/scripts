@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>AMApplicationBuild</key>
-	<string>444.7</string>
+	<string>512.1</string>
 	<key>AMApplicationVersion</key>
-	<string>2.8</string>
+	<string>2.10</string>
 	<key>AMDocumentVersion</key>
 	<string>2</string>
 	<key>actions</key>
@@ -69,51 +69,51 @@
 					<string>com.apple.cocoa.path</string>
 					<key>predicate</key>
 					<data>
-					YnBsaXN0MDDUAQIDBAUGYmNYJHZlcnNpb25Y
-					JG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGG
-					oK8QFgcIDxQcJicpMDQ5Oj1BRUpLTlVZXV9V
-					JG51bGzTCQoLDA0OXxAXTlNDb21wb3VuZFBy
-					ZWRpY2F0ZVR5cGVfEA9OU1N1YnByZWRpY2F0
-					ZXNWJGNsYXNzEAGAAoAV0hALERNaTlMub2Jq
-					ZWN0c6ESgAOAFNQLFRYXGBkaG18QEU5TUmln
-					aHRFeHByZXNzaW9uXxAQTlNMZWZ0RXhwcmVz
-					c2lvbl8QE05TUHJlZGljYXRlT3BlcmF0b3KA
-					E4AOgASAEdUdHh8gCyEiIyQlWU5TT3BlcmFu
-					ZF5OU1NlbGVjdG9yTmFtZV8QEE5TRXhwcmVz
-					c2lvblR5cGVbTlNBcmd1bWVudHOABoAFEAOA
-					CIANXHZhbHVlRm9yS2V5OtIfCwwogAfSKiss
-					LVokY2xhc3NuYW1lWCRjbGFzc2VzXxAQTlNT
-					ZWxmRXhwcmVzc2lvbqMsLi9cTlNFeHByZXNz
-					aW9uWE5TT2JqZWN00hALMTOhMoAJgAzTCx81
-					Njc4WU5TS2V5UGF0aIALEAqAClRraW5k0ior
-					OzxfEBxOU0tleVBhdGhTcGVjaWZpZXJFeHBy
-					ZXNzaW9uozsuL9IqKz4/Xk5TTXV0YWJsZUFy
-					cmF5oz5AL1dOU0FycmF50iorQkNfEBNOU0tl
-					eVBhdGhFeHByZXNzaW9upEJELi9fEBROU0Z1
-					bmN0aW9uRXhwcmVzc2lvbtNGHwtHSElfEA9O
-					U0NvbnN0YW50VmFsdWWADxAAgBAQBNIqK0xN
-					XxAZTlNDb25zdGFudFZhbHVlRXhwcmVzc2lv
-					bqNMLi/VC09QUVJTSFRISlpOU01vZGlmaWVy
-					WE5TTmVnYXRlWU5TT3B0aW9uc15OU09wZXJh
-					dG9yVHlwZYASCNIqK1ZXXxAbTlNFcXVhbGl0
-					eVByZWRpY2F0ZU9wZXJhdG9yo1ZYL18QE05T
-					UHJlZGljYXRlT3BlcmF0b3LSKitaW18QFU5T
-					Q29tcGFyaXNvblByZWRpY2F0ZaNaXC9bTlNQ
-					cmVkaWNhdGXSKitAXqJAL9IqK2BhXxATTlND
-					b21wb3VuZFByZWRpY2F0ZaNgXC9fEA9OU0tl
-					eWVkQXJjaGl2ZXLRZGVUcm9vdIABAAgAEQAa
-					ACMALQAyADcAUABWAF0AdwCJAJAAkgCUAJYA
-					mwCmAKgAqgCsALUAyQDcAPIA9AD2APgA+gEF
-					AQ8BHgExAT0BPwFBAUMBRQFHAVQBWQFbAWAB
-					awF0AYcBiwGYAaEBpgGoAaoBrAGzAb0BvwHB
-					AcMByAHNAewB8AH1AgQCCAIQAhUCKwIwAkcC
-					TgJgAmICZAJmAmgCbQKJAo0CmAKjAqwCtgLF
-					AscCyALNAusC7wMFAwoDIgMmAzIDNwM6Az8D
-					VQNZA2sDbgNzAAAAAAAAAgEAAAAAAAAAZgAA
-					AAAAAAAAAAAAAAAAA3U=
+					YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25Z
+					JGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGG
+					oF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290
+					gAGvEBYLDBMYICorLTQ4PT5BRUlOT1JYXGBi
+					VSRudWxs0w0ODxAREl8QF05TQ29tcG91bmRQ
+					cmVkaWNhdGVUeXBlXxAPTlNTdWJwcmVkaWNh
+					dGVzViRjbGFzcxABgAKAFdIUDxUXWk5TLm9i
+					amVjdHOhFoADgBTUDxkaGxwdHh9fEBFOU1Jp
+					Z2h0RXhwcmVzc2lvbl8QEE5TTGVmdEV4cHJl
+					c3Npb25fEBNOU1ByZWRpY2F0ZU9wZXJhdG9y
+					gBOADoAEgBHVISIjJA8lJicoKVlOU09wZXJh
+					bmReTlNTZWxlY3Rvck5hbWVfEBBOU0V4cHJl
+					c3Npb25UeXBlW05TQXJndW1lbnRzgAaABRAD
+					gAiADVx2YWx1ZUZvcktleTrSIw8QLIAH0i4v
+					MDFaJGNsYXNzbmFtZVgkY2xhc3Nlc18QEE5T
+					U2VsZkV4cHJlc3Npb26jMDIzXE5TRXhwcmVz
+					c2lvblhOU09iamVjdNIUDzU3oTaACYAM0w8j
+					OTo7PFlOU0tleVBhdGiACxAKgApUbmFtZdIu
+					Lz9AXxAcTlNLZXlQYXRoU3BlY2lmaWVyRXhw
+					cmVzc2lvbqM/MjPSLi9CQ15OU011dGFibGVB
+					cnJheaNCRDNXTlNBcnJhedIuL0ZHXxATTlNL
+					ZXlQYXRoRXhwcmVzc2lvbqRGSDIzXxAUTlNG
+					dW5jdGlvbkV4cHJlc3Npb27TSiMPS0xNXxAP
+					TlNDb25zdGFudFZhbHVlgA8QAIAQW0dhbGxl
+					cnkuSlBH0i4vUFFfEBlOU0NvbnN0YW50VmFs
+					dWVFeHByZXNzaW9uo1AyM9QPU1RVVkwnV1pO
+					U01vZGlmaWVyV05TRmxhZ3NeTlNPcGVyYXRv
+					clR5cGWAEhBj0i4vWVpfEBVOU0luUHJlZGlj
+					YXRlT3BlcmF0b3KjWVszXxATTlNQcmVkaWNh
+					dGVPcGVyYXRvctIuL11eXxAVTlNDb21wYXJp
+					c29uUHJlZGljYXRlo11fM1tOU1ByZWRpY2F0
+					ZdIuL0RhokQz0i4vY2RfEBNOU0NvbXBvdW5k
+					UHJlZGljYXRlo2NfMwAIABEAGgAkACkAMgA3
+					AEkATABRAFMAbAByAHkAkwClAKwArgCwALIA
+					twDCAMQAxgDIANEA5QD4AQ4BEAESARQBFgEh
+					ASsBOgFNAVkBWwFdAV8BYQFjAXABdQF3AXwB
+					hwGQAaMBpwG0Ab0BwgHEAcYByAHPAdkB2wHd
+					Ad8B5AHpAggCDAIRAiACJAIsAjECRwJMAmMC
+					agJ8An4CgAKCAo4CkwKvArMCvALHAs8C3gLg
+					AuIC5wL/AwMDGQMeAzYDOgNGA0sDTgNTA2kA
+					AAAAAAACAQAAAAAAAABlAAAAAAAAAAAAAAAA
+					AAADbQ==
 					</data>
 					<key>searchPath</key>
-					<string>~/Downloads/Images</string>
+					<string>~/Downloads/images_for_dads_website/outputs</string>
 				</dict>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.FindFinderItems2</string>
@@ -184,12 +184,10 @@
 						<string>2</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>309.000000:164.000000</string>
+				<string>309.000000:177.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Find Finder Items 2.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -244,9 +242,9 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>replaceExisting</key>
-					<false/>
+					<true/>
 					<key>toDirectory</key>
-					<string>~/Downloads/Images/600x600</string>
+					<string>~/Downloads/images_for_dads_website/outputs/600x600</string>
 				</dict>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.CopyFiles</string>
@@ -306,12 +304,10 @@
 						<string>1</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>309.000000:267.000000</string>
+				<string>309.000000:277.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Copy Finder Items.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -329,7 +325,7 @@
 					<false/>
 					<key>Types</key>
 					<array>
-						<string>com.apple.cocoa.path</string>
+						<string>public.image</string>
 					</array>
 				</dict>
 				<key>AMActionVersion</key>
@@ -355,7 +351,7 @@
 					<string>List</string>
 					<key>Types</key>
 					<array>
-						<string>com.apple.cocoa.path</string>
+						<string>public.image</string>
 					</array>
 				</dict>
 				<key>ActionBundlePath</key>
@@ -459,12 +455,10 @@
 						<string>3</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>309.000000:372.000000</string>
+				<string>309.000000:381.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Scale Images.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -474,14 +468,14 @@
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>997D3F48-B3DF-40CA-9DCF-4C350C15BFE4</key>
+		<key>B2F22ABF-54AA-4BA6-9658-6EE52CB8E52A</key>
 		<dict>
 			<key>from</key>
 			<string>41CF9408-F5DE-42EF-8533-01DB7850EC72 - 41CF9408-F5DE-42EF-8533-01DB7850EC72</string>
 			<key>to</key>
 			<string>973A4DE3-F4DA-404A-AF7D-D32B04450C08 - 973A4DE3-F4DA-404A-AF7D-D32B04450C08</string>
 		</dict>
-		<key>C3CD0BC8-E010-4800-995F-09207362857D</key>
+		<key>EC8C38AA-F519-4FCF-80BC-3C7ECB740308</key>
 		<dict>
 			<key>from</key>
 			<string>973A4DE3-F4DA-404A-AF7D-D32B04450C08 - 973A4DE3-F4DA-404A-AF7D-D32B04450C08</string>
